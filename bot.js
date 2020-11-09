@@ -13,7 +13,7 @@ console.log("beep beep!");
 
 const Discord = require("discord.js");
 const client = new Discord.Client();
-client.login('Nzc1NDcyNTAxOTU0MzE0Mjcx.X6m1DA.C5nIuAbI-MuuppwmtIjZv8cM-v8');
+client.login(process.env.BOT_TOKEN);
 
 client.on("ready", readyDiscord);
 
